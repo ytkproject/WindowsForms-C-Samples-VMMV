@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,7 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\ModelBase.cs" />
+    <Compile Include="Common\ViewModelBase.cs" />
     <Compile Include="Common\DelegateCommand.cs" />
+    <Compile Include="TestModel.cs" />
     <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>

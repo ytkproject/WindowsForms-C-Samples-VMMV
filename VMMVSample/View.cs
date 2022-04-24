@@ -16,7 +16,7 @@ namespace VMMVSample
         {
             InitializeComponent();
 
-           
+            var test = new TestModel();
         }
     }
 }

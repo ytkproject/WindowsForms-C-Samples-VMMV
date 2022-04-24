@@ -27,9 +27,7 @@ namespace VMMVSample.Common
         /// コンストラクタ
         /// </summary>
         /// <param name="execute">Execute デリゲート</param>
-        internal DelegateCommand(Action<T> execute) : this(execute, x => true)
-        {
-        }
+        internal DelegateCommand(Action<T> execute) : this(execute, x => true) { }
 
         /// <summary>
         /// コンストラクタ
@@ -87,7 +85,8 @@ namespace VMMVSample.Common
             {
                 // parameterがNullかつ値型の場合
                 result = default(T);
-            } else
+            } 
+            else
             {
                 // 型変換
                 result = (T)parameter;
