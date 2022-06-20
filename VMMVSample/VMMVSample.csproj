@@ -51,6 +51,7 @@
     <Compile Include="Common\ModelBase.cs" />
     <Compile Include="Common\ViewModelBase.cs" />
     <Compile Include="Common\DelegateCommand.cs" />
+    <Compile Include="Condition.cs" />
     <Compile Include="TestModel.cs" />
     <Compile Include="View.cs">
       <SubType>Form</SubType>
